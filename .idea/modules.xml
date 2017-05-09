@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KurbaChallenge.iml" filepath="$PROJECT_DIR$/KurbaChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kurbachallenge.iml" filepath="$PROJECT_DIR$/Kurbachallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

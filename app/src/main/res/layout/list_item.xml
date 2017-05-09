@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp">
 
-    <TextView
-        android:id="@+id/user_name_textView"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:text="Vikas sable" />
+        android:orientation="vertical">
 
-    <TextView
+        <TextView
+            android:id="@+id/user_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Vikas sable" />
 
-        android:id="@+id/addr_textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="24dp"
-        android:paddingRight="16dp"
-        android:textSize="18sp"
-        tools:text="413 Summit Ave" />
+        <TextView
+
+            android:id="@+id/addr_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="16dp"
+            android:textSize="18sp"
+            tools:text="413 Summit Ave" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
 
 
-</LinearLayout>
